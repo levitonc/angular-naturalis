@@ -1,0 +1,31 @@
+.cards-container{
+/* PRA DAR EFEITO DE OUTROS ITENS NA FRENTE  */
+  position: relative;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 95vw;
+  padding: 3px;
+
+
+  display: flex;
+  /* TUDO QUE SAIR DO TAMANHO DA CAIXA FICARÁ ESCONDIDO */
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-container{
+  position: relative;
+
+}
+
+
+.card-image{
+  transition: transform .8s;
+  border-radius: 10px;
+  height: 250px;
+}
+.card-image:hover{
+  /* PRA FAZER O CARD CRESCER QUANDO PASSA O MOUSE */
+  transform: scale(1.1);
+
+}

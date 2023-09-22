@@ -1,0 +1,18 @@
+.card-label-container{
+
+  background-color: rgb(218, 237, 186);
+  position: absolute;
+  bottom: 90px;
+
+  /* FIXAR ELE À DIREITA DO CARD */
+  right: 0;
+}
+.card-label-content{
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+.card-label-content>p{
+  color: rgb(24, 87, 31);
+}
